@@ -1,0 +1,27 @@
+# Terraform
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+crash.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraform.lock.hcl
+
+# Variables sensibles
+terraform.tfvars
+*.pem
+*.key
+*.csv
+
+# Planes
+plan.txt
+tfplan
+
+# VS Code
+.vscode/
+
+# Sistema
+.DS_Store
+Thumbs.db
